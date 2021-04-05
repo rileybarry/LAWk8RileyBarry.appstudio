@@ -10,16 +10,14 @@ favExercises.onshow = function() {
 }
 
 btnExercise.onclick = function() {
-  let txt = ''
+  let txt = []
   for (i = 0;i<selExercises.text.length;i++)
-    txt = txt + selExercises.text[i] + ','
-  console.log(txt)
-  
-  /*if (selections[0] == "situps" && selections[1] == "plank") {
-    console.log(`You chose situps and planks - those are the two corse exercises`)
+    txt.push(selExercises.text[i])
+  if(txt[0] == "situps" && txt[1] == "plank") {
+    console.log(`You chose situps and planks - those are the two core exercises`)
   } else {
-    console.log(`You did not pick the two core`)
-  }*/
+    console.log(`You did not pick the two core exercises`)
+  }
 }
 
 btnNextTwo.onclick = function() {
