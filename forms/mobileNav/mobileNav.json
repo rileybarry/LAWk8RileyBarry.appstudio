@@ -34,7 +34,7 @@
   "onhide": "",
   "onkeypress": "",
   "onresize": "",
-  "onshow": "",
+  "onshow": "mobileNav.onshow()",
   "openMode": "none",
   "parentForm": "",
   "position": "absolute",
