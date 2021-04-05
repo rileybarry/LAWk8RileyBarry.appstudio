@@ -36,6 +36,15 @@
         "Elements",
         "lblOutput.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "dessertVoting",
+        "Elements",
+        "btnNext.json"
+      ]
     }
   ],
   "class": "",
